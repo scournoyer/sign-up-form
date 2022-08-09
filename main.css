@@ -1,0 +1,121 @@
+:root {
+    --green: #596D48;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('Norse-Bold.otf');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+}
+
+#left-page {
+    width: 625px;
+}
+
+#odin {
+    position: absolute;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    width: 625px;
+    font-family: 'Norse-Bold';
+    font-size: 100px;
+}
+
+#odin img {
+    width: auto;
+    height: 150px;
+}
+
+#right-page {
+    display: flex;
+    flex-direction: column;
+    top: 300px;
+    background-color: f8f8ff;
+}
+
+#right-page>* {
+    padding-left: 35px;
+}
+
+#form-head {
+    padding-top: 175px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: large;
+    width: 600px;
+}
+
+#form {
+    background-color: white;
+    box-shadow: 0px 4px 2px -2px rgb(175, 173, 173);
+}
+
+#form p {
+    font-size: large;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+}
+
+fieldset {
+    border: none;
+}
+
+#left-form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 0;
+}
+
+#right-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: small;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 2px 4px 2px -2px rgb(175, 173, 173);
+}
+
+#create-account {
+    padding-top: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    background-color: var(--green);
+    width: 175px;
+    height: 35px;
+}
+
+a {
+    color: var(--green);
+    text-decoration: none;
+}
